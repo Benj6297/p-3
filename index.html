@@ -3,20 +3,31 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<!--spacer comment-->
+<!--In the below class designation you can reference daisyUI documentation and set a css theme for the web page by putting the name in the parens-->
+<html data-theme="forest">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Zev & Ben's Awesome Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <!--Im using CDNs here to import TailwindCSS & DaisyUI, they streamline design and save time, look at their documentation online-->
+        <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.2.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
+        <main>
+            <div>
+                <button class="btn btn-secondary">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Me!</a>
+                </button>
+            </div>
+        </main>
+        <script src="script.js" async defer></script>
     </body>
 </html>
